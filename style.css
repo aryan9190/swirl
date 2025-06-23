@@ -1,0 +1,96 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body*/
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header*/
+header {
+    background-color: #fddde6;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 4px solid #ffc2d1;
+}
+
+header h1 {
+    color: #d63384;
+    margin-bottom: 0.5rem;
+}
+
+/*Nav*/
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+nav a:hover{
+    color: #d63384;
+}
+
+/*Img*/
+.main-img {
+    display: block;
+    margin: 2rem auto;
+    width: 280px;
+    max-width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/*Main*/
+main{
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+main h2{
+    color: #cc3366;
+    margin-bottom: 1rem;
+}
+
+/*Flavor List*/
+.flavor-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.flavor-list li {
+    background-color:  #ffe9f0;
+    border-left: 6px solid #ff99c8;
+    margin: 1.2rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.flavor-list h3 {
+    margin-bottom: 0.3rem;
+    color: #c2185b;
+}
+
+/*Footer*/
+footer {
+    background-color: #ffe6eb;
+    color: #555;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    border-top: 2px solid #ffc9d9;
+}
